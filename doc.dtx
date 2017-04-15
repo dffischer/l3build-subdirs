@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{graphicx}
+\newcommand\imagefromsubdir[2]{\fbox{\includegraphics[width=\textwidth]{dir#1/#2.pdf}}}
+
+\begin{document}
+  \noindent
+  \imagefromsubdir{one}{a1}
+  \imagefromsubdir{one}{a2}
+  \imagefromsubdir{one}{b1}
+  \imagefromsubdir{one}{b2}
+  \imagefromsubdir{two}{a1}
+  \imagefromsubdir{two}{a2}
+  \imagefromsubdir{two}{b1}
+  \imagefromsubdir{two}{b2}
+\end{document}

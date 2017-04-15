@@ -1,0 +1,22 @@
+\input l3docstrip.tex
+\generate{\file{a1.tex}{
+  \from{a.dtx}{}
+  \from{one.dtx}{}
+  \from{1.dtx}{}
+}}
+\generate{\file{a2.tex}{
+  \from{a.dtx}{}
+  \from{one.dtx}{}
+  \from{2.dtx}{}
+}}
+\generate{\file{b1.tex}{
+  \from{b.dtx}{}
+  \from{one.dtx}{}
+  \from{1.dtx}{}
+}}
+\generate{\file{b2.tex}{
+  \from{b.dtx}{}
+  \from{one.dtx}{}
+  \from{2.dtx}{}
+}}
+\endbatchfile
